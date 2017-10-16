@@ -1,0 +1,21 @@
+n=int(input())
+p=n
+count1=0
+for j in range(n-97,n+1):
+    b1=j
+    #print('b1',b1)
+    sum1=j
+    b=0
+    #print('sum1',sum1)
+    while(b1!=0):
+        b+=b1%10
+        b1=b1//10
+    #print('b',b)
+    sum1+=b
+    while(b!=0):
+        sum1+=b%10
+        b=b//10
+    #print('sum1',sum1)
+    if(sum1==p):
+        count1+=1
+print(count1)
