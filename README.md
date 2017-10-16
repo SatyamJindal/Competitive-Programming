@@ -2,4 +2,5 @@
 This is a repository consisting of some of my submissions to online judges.
 
 Online Judge Activity:
+
 Codechef - https://www.codechef.com/users/satyam_jindal
