@@ -29,6 +29,7 @@ Output:
 No
 Yes
 
+Codechef Link - https://www.codechef.com/problems/SATCF
 '''
 
 t=int(input())
