@@ -1,0 +1,10 @@
+l=int(input())
+b=int(input())
+ar=l*b
+peri=2*(l+b)
+if(ar>peri):
+    print('Area')
+    print(ar)
+else:
+    print('Peri')
+    print(peri)
