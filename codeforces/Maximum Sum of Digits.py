@@ -1,0 +1,14 @@
+n=int(input())
+ans=0
+while(n%10==9):
+    ans+=9
+    n//=10
+if(n==0):
+    print(ans)
+else:
+    dig=0
+    while(n):
+        ans+=n%10
+        dig+=1
+        n//=10
+    print(ans+(dig-1)*9)
